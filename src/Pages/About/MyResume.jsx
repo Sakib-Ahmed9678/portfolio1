@@ -6,10 +6,10 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const ResumeCard = ({ title, company, period, description }) => (
   <div className="px-2">
-    <div className="bg-gray-800 p-5 rounded-lg shadow-lg h-full">
+    <div className="bg-[#383838] p-5 rounded-lg shadow-lg h-full">
       <h3 className="text-xl mb-2 text-white">{title}</h3>
       <span className="block text-sm mb-2 text-gray-400">{company}</span>
-      <span className="inline-block bg-yellow-500 text-gray-900 px-2 py-1 rounded text-xs mb-2">
+      <span className="inline-block bg-[#ff5722] text-white px-2 py-1 rounded  mb-2">
         {period}
       </span>
       <p className="text-sm text-gray-300">{description}</p>
@@ -67,22 +67,29 @@ const MyResume = () => {
   const educationData = [
     {
       title: "Computer Science",
-      company: "MIT",
-      period: "2002 - 2006",
+      company: "National University",
+      period: "2020 - Running",
       description:
         "Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.",
     },
     {
-      title: "Graphic Design",
-      company: "Harvard",
-      period: "1998 - 2002",
+      title: "HSC",
+      company: "Govt. Shahid Sahrwardi College",
+      period: "2017 - 2019",
+      description:
+        "Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.",
+    },
+    {
+      title: "SSC",
+      company: "Gendaria High School",
+      period: "2015 - 2016",
       description:
         "Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.",
     },
   ];
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
