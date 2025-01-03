@@ -37,18 +37,21 @@ const Home = () => {
           <div className="flex justify-center md:justify-start text-white">
             <a
               className="hover:text-[#ffc107] mx-2"
+              target="_blank"
               href="https://www.facebook.com/sha12kib13"
             >
               <FaFacebookF />
             </a>
             <a
               className="hover:text-[#ffc107] mx-2"
+              target="_blank"
               href="https://x.com/Sakib81391147"
             >
               <FaTwitter />
             </a>
             <a
               className="hover:text-[#ffc107] mx-2"
+              target="_blank"
               href="https://www.linkedin.com/in/md-sakib-hossain-sheikh-0abb771a9/"
             >
               <FaLinkedinIn />
@@ -57,7 +60,8 @@ const Home = () => {
               <FaDribbble />
             </a>
             <a
-              className="hover:text-[#ffc107] mx-2"
+              className="hover:text-[#ffc107] mx-2 "
+              target="_blank"
               href="https://www.instagram.com/sha12kib13/?hl=en"
             >
               <FaInstagram />

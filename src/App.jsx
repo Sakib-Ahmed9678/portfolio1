@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./Pages/home";
 import AboutMe from "./Pages/About/AboutMe";
 import Portfolio from "./Pages/portfolio";
+import Contract from "./Pages/contract";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <AboutMe />
         <Portfolio />
+        <Contract />
       </div>
     </>
   );
